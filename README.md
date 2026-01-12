@@ -1,15 +1,19 @@
+//Finding the result of five arithemetic operations between two integers using SWITCH case.
+
 #include<iostream>
-using namespace std:
-int main()
+using namespace std;
+int main ()
 
 {
 
 int a,b,c,choice;
-cout<<"Enter the value of a: "<<endl;
+cout<<"Enter the value of a: ";
 cin>>a;
-cout<<"Emter the value of b: "<<endl;
+cout<<"Enter the value of b: ";
 cin>>b;
-cout<<"enter your choice: "<<endl;
+cout<<""<<endl;
+cout<<"Enter your choice: ";
+cin>>choice;
 
 switch(choice)
 
@@ -21,7 +25,7 @@ break;
 
 case 2:
 c=a-b;
-cout<<" Difference of a and b = "<<c<<endl;
+cout<<"Difference of a and b = "<<c<<endl;
 break;
 
 case 3:
@@ -39,8 +43,9 @@ c=a%b;
 cout<<"Remainder of a and b = "<<c<<endl;
 break;
 
-default
+default:
 cout<<"Wrong Choice!"<<endl;
+break;
 
 }
 
