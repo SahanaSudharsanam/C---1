@@ -12,6 +12,7 @@ cin>>b;
 cout<<"enter your choice: "<<endl;
 
 switch(choice)
+
 {
 case 1:
 c=a+b;
@@ -42,4 +43,5 @@ default
 cout<<"Wrong Choice!"<<endl;
 
 }
+
 }
